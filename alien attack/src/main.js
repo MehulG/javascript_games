@@ -7,6 +7,15 @@ var fired = 0;
 var stat = "";
 var win = false;
 
+var replay = document.querySelector('#replay');
+replay.addEventListener("click", play_again, false);
+
+function play_again(){
+  console.log('213');
+  location.reload();
+}
+
+
 var cannon = document.querySelector('#cannon');
 var alien = document.querySelector('#alien');
 var missile = document.querySelector('#missile');
@@ -16,7 +25,7 @@ var ix = document.querySelector('#inputX');
 var output = document.querySelector('#output');
 var iy = document.querySelector('#inputY')
 
-var button = document.querySelector('button');
+var button = document.querySelector('#button');
 button.style.cursor = "pointer";
 button.addEventListener("click", play, false);
 
