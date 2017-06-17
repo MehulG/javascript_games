@@ -1,0 +1,3 @@
+Use arrow keys to move the cannon left and right.
+Space to shoot.
+You can play this offline.

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: game_font;
+  src: url('../fonts/emulogic.ttf');
+}
+body{
+  font-family: game_font;
+  color: yellow;
+  margin: 1%;
+  text-align: center;
+  background: #3D5A8C;
+}
+button{
+  height: 2.5em;
+  border-radius: 10px;
+  width: auto;
+  background: yellow;
+  font-family: game_font;
+  margin-bottom: 30px;
+}
+canvas{
+  margin: 30px;
+  margin-bottom: 0;
+  border-radius: 15px;
+}
+
+#stage{
+  background: green;
+  width: 540px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+  text-align: center;
+  border-radius: 20px;
+  background: #1C2940;
+}
+
+#unmute{
+  font-size: 0.7em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
