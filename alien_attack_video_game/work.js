@@ -52,7 +52,7 @@
   var score_display = Object.create(message_object);
   score_display.font = 'normal bold 30px game_font';
   score_display.fillStyle = '#00ff00';
-  score_display.x = 400;
+  score_display.x = 380;
   score_display.y = 10;
   messages.push(score_display);
 
@@ -178,7 +178,7 @@
 
       //play music
       music.play();
-      music.volume = 0.3;
+      music.volume = 0.1;
 
       game_state = PLAYING;
     }
@@ -221,7 +221,7 @@
       make_alien();
       alien_timer = 0;
       //reduce time between creation of aliens
-      if (alien_freq > 2) {
+      if (alien_freq > 50) {
         alien_freq--;
       }
     }
